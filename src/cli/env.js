@@ -1,6 +1,5 @@
 const parseEnv = () => {
   const envVariables = process.env;
-  console.log(envVariables)
 
   const rssVariables = Object.keys(envVariables)
     .filter((variable) => variable.startsWith("RSS_"))
